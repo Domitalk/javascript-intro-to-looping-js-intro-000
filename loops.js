@@ -18,9 +18,10 @@ function whileLoop(number) {
 }
 
 function doWhileLoop(integer) {
-  function incrementalVariable(interger) {
-    interger = interger + 1;
-    return interger;
+  var i = 0
+  function incrementalVariable() {
+    i = i + 1;
+    return i;
   }
 
   do {
